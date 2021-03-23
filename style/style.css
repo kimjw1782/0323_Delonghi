@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    /* 배경색 */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #222;
+}
+
+a:visited {
+    color: #222;
+}
+
+a:hover {
+    color: #333;
+}
+
+a:active {
+    color: #333;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Reset 끝 */
+
+/* Guide Line 시작 */
+div#wrap {
+    border: 1px solid #000;
+}
+
+header#header {
+    border: 1px solid #000;
+}
+
+main#main {
+    border: 1px solid #000;
+}
+
+footer#footer {
+    border: 1px solid #000;
+}
+
+/* Guide Line 끝 */
+
+/* div#wrap 시작 */
+div#wrap {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+/* div#wrap 끝 */
+
+/* header#header 시작 */
+header#header {
+    height: 120px;
+    background-color: #0c2645;
+
+    display: flex;
+}
+
+/* div# headerLogo 시작 */
+#header > div#headerLogo {
+    line-height: 120px;
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+/* div# headerLogo 끝 */
+
+/* nav#gnb 시작 */
+#header > nav#gnb {
+    width: 650px;
+}
+
+#header > nav#gnb > ul > li {
+    line-height: 120px;
+
+    float: left;
+}
+
+#header > nav#gnb > ul > li > a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+/* nav#gnb 끝 */
+
+/* div#headerIcon 시작 */
+#header > div#headerIcon {
+    width: 250px;
+}
+
+#header > div#headerIcon > ul > li {
+    line-height: 120px;
+    float: left;
+}
+
+#header > div#headerIcon > ul > li > a {
+    padding: 20px;
+}
+
+/* div#headerIcon 끝 */
+
+/* header#header 끝*/
+
+/* main#main 시작 */
+main#main {
+    width: 1000px;
+    height: 800px;
+
+    margin: 0 auto;
+}
+
+/* div#subMenu 시작 */
+div#subMenu {
+    height: 70px;
+
+    margin-top: 20px;
+}
+
+#main > div#subMenu > ul > li {
+    font-weight: bold;
+    float: left;
+}
+
+#main > div#subMenu > ul > li > a {
+    margin-right: 20px;
+}
+
+/* div#subMenu 끝 */
+
+/* div#loginContent 시작 */
+
+div#loginContent {
+    text-align: center;
+}
+
+#main div#loginContent > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #000;
+}
+
+#main div#loginContent > P {
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+#main div#loginContent > ul {
+    display: inline-block;
+    padding-bottom: 40px;
+
+    /*중앙정렬을 하기 위해서 전체를 감싸는 곳에 text-align: center;을 주고, 그 자식요소에 display: inline-block을 주고 li엔 float:left;를 걸어주면 됨.
+}
+*/
+}
+
+#main div#loginContent > ul > li {
+    float: left;
+}
+
+#main div#loginContent > ul > li > a {
+    color: #777;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    padding: 20px 130px;
+}
+
+#main div#loginContent > table {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main div#loginContent > table input {
+    padding-left: 20px;
+    width: 400px;
+    height: 50px;
+
+    border: 1px solid #aaa;
+
+}
+
+#main div#loginContent > table button {
+    color: #fff;
+    font-size: 20px;
+    /*    font-weight: bold;*/
+    width: 240px;
+    height: 110px;
+    margin-left: 15px;
+    border: none;
+    background-color: #3d90eb;
+
+}
+
+#main div#loginContent span {
+    margin-top: 10px;
+    margin-left: 170px;
+    text-align: left;
+    display: block;
+}
+
+#main div#loginContent div#joinSearch {
+    margin-top: 80px;
+}
+
+#main div#loginContent div#joinSearch > ul {
+    display: inline-block;
+}
+
+#main div#loginContent div#joinSearch > ul > li {
+    text-align: center;
+    float: left;
+}
+
+#main div#loginContent div#joinSearch > ul > li > a {
+    padding: 10px;
+}
+
+#main div#loginContent div#joinSearch > ul > li > a > img {
+    margin: 0 50px;
+}
+
+#main div#loginContent div#joinSearch > ul > li > a:hover {
+    width: 50px;
+    height: 50px;
+    background-color: #3d90eb;
+    border-radius: 25px;
+
+}
+
+/* div#loginContent 시작 */
+
+
+/* main#main 끝 */
+
+/* footer#footer 시작 */
+footer#footer {
+    height: 300px;
+    background-color: #0c2645;
+}
+
+/* footer#footer 끝 */
